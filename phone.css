@@ -1,0 +1,163 @@
+/* Navigation section */
+#navbar{
+    display: flex;
+    background-color: #282828;
+    border:0.2px solid #706767;
+    /* border: 2px solid red; */
+    height: 3rem;
+    /* width: 100%; */
+    justify-content: center;
+    /* font-family: 'Baloo Bhai', cursive; */
+}
+
+.navbar-section img{
+    width: 1.2rem;
+    margin: 2px;
+}
+
+.navbar-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-section ul li a{
+    text-decoration: none;
+    color: #b1b0b0;
+    margin: 3px 5px;
+    padding: 3px 5px;
+    font-size: 1rem;
+}
+.navbar-section ul li a:hover{
+    color: white;
+    padding-bottom: 15px;
+    border-bottom: 4px solid white;
+    font-weight: bold;
+}
+
+.navbar-items{
+    display: inline;
+}
+.navbar-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 5px;
+}
+
+.navbar-select option{
+    padding: 2px 2px;
+    margin: 2px 2px;
+    font-size: 1rem;
+}
+
+#navbar-select1{
+    margin: 3px 4px;
+    width: 4rem;
+    height: 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #282828;
+    color: #b1b0b0;
+}
+#navbar-select1:hover{
+    color: white;
+}
+#navbar-select2{
+    margin: 3px 7px;
+    width: 3rem;
+    height: 2.3rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #282828;
+    color: orange;
+}
+
+/* Content section */
+#content{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.upper{
+    width: 20rem;
+    margin: 12px 12px;
+    border-radius: 12px;
+}
+
+/* Study section */
+#study{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 5px;
+}
+
+.study-section{
+    /* border:2px solid yellow; */
+}
+
+
+.container{
+    display: flex;
+    flex-direction: column;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.study-items{
+    background-color: #282828;
+    /* border: 2px solid blue; */
+    width: 430px;   
+    height: 80px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.img-section{
+    display: inline-block;
+}
+
+.img-section img{
+    margin: 8px 10px;
+    width: 43px;   
+    height: 56px;
+    border-radius: 7px;
+}
+
+/* Pre-Questions */
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Utiliy section */
+.btn{
+    padding: 3px 3px;
+    margin: 3px 3px;
+    width: 130px;
+    height: 50px;
+    font-size: 1rem;
+    background-color:#282828;
+    color:white;
+    cursor: pointer;
+    border-radius: 28px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
