@@ -1,0 +1,234 @@
+/* CSS Reset */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    color: grey;
+}
+
+/* Navigation section */
+
+#navbar{
+    display: flex;
+    background-color: #282828;
+    border:0.2px solid #706767;
+    /* border: 2px solid red; */
+    height: 4rem;
+    /* width: 100%; */
+    justify-content: center;
+    /* font-family: 'Baloo Bhai', cursive; */
+}
+
+.navbar-section img{
+    width: 2rem;
+    margin: 10px;
+}
+
+.navbar-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.navbar-section ul li a{
+    text-decoration: none;
+    color: #b1b0b0;
+    margin: 3px 12px;
+    padding: 3px 5px;
+    font-size: 1.3rem;
+}
+.navbar-section ul li a:hover{
+    color: white;
+    padding-bottom: 20px;
+    border-bottom: 4px solid white;
+    font-weight: bold;
+}
+
+.navbar-items{
+    display: inline;
+}
+.navbar-select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3px 5px;
+}
+
+.navbar-select option{
+    padding: 30px 20px;
+    margin: 30px 20px;
+    font-size: 1rem;
+}
+
+#navbar-select1{
+    margin: 3px 12px;
+    width: 9rem;
+    height: 2rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #282828;
+    color: #b1b0b0;
+}
+#navbar-select1:hover{
+    color: white;
+}
+#navbar-select2{
+    margin: 3px 12px;
+    width: 6.3rem;
+    height: 2.3rem;
+    border: none;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #282828;
+    color: orange;
+}
+
+
+/* Content section */
+#content{
+    display: flex;
+    /* border: 2px solid red; */
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.upper{
+    width: 22rem;
+    margin: 12px 12px;
+    border-radius: 12px;
+}
+
+/* Study section */
+#study{
+    /* border: 2px solid red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.study-section{
+    /* border:2px solid yellow; */
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.study-items{
+    background-color: #282828;
+    /* border: 2px solid blue; */
+    width: 335px;   
+    height: 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 15px;
+}
+
+
+.img-section{
+    display: inline-block;
+}
+
+.img-section img{
+    margin: 8px 10px;
+    width: 83px;   
+    height: 96px;
+    border-radius: 7px;
+}
+
+/* Pre-Questions */
+.grid-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Table section */
+#table-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+
+thead th{
+    /* border: 2px solid green; */
+    padding: 10px 0px;
+    margin: 50px 50px;
+}
+
+.first{
+    width: 650px;
+}
+
+.second{
+    width: 250px;
+    text-align: center;
+}
+.third{
+    width: 250px;
+    text-align: center;
+}
+
+tbody td{
+    color: white;
+    padding: 7px 2px;
+}
+
+/* Footer section */
+footer{
+    text-align: center;
+    margin: 20px 20px;
+}
+
+/* Utility section */
+.h-primary{
+    /* display: block; */
+    /* text-align: center; */
+    /* border: 2px solid green; */
+    padding: 30px 4px;
+    font-size: 1.4rem;
+    /* width: 70%; */
+}
+
+.h3-heading{
+    margin-bottom:10px;
+}
+
+.study-items p{
+    /* display: inline-block; */
+}
+
+hr{
+    width: 60%;
+    border:0.2px solid #706767;
+    margin: 50px auto;
+}
+
+.btn{
+    padding: 5px 7px;
+    margin: 5px 7px;
+    width: 170px;
+    height: 50px;
+    font-size: 1.5rem;
+    background-color:#282828;
+    color:white;
+    cursor: pointer;
+    border-radius: 28px;
+}
+
+.btn:hover{
+    color: black;
+    background-color: white;
+}
